@@ -1,4 +1,4 @@
-# CSCI-202, Introduction to Programming
+# CSCI-202, Introduction to Computer Science II
 
 ## Overview
 
