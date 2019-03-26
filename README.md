@@ -46,5 +46,14 @@ You should see a success if everything is set up correctly.
 Within the folder `assignments` there is a subfolder for each assignment with a `README.md` with the assignment instructions. Students are to read the document and complete the assignment by
 submitting their code within their private repository for the submitter and the instructor to see.
 
+## IDE (IntelliJ)
+
+I will be using the IDE IntelliJ for all coding examples. You can use any IDE that you choose (Eclipse, Netbeans, etc.) however,
+I will only be able provide assistance for IntelliJ.
+
+IntelliJ is quite expensive however students/instructors can receive a free license by filling out an application with their
+school email address. Simply go to [https://www.jetbrains.com/student/](https://www.jetbrains.com/student/) and fill out an
+application in order to receive your free license.
+
 Happy coding!
 

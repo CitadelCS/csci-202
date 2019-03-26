@@ -1,4 +1,4 @@
-package edu.citadel.csci202.javafx;
+package edu.citadel.csci202.javafx.ex1;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
