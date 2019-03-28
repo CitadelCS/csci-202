@@ -49,5 +49,22 @@ recording the small electric waves being generated during heart activity.
 
 ## Sample Output
 
+![Tweetreader Sample Output](../../../../../../../../images/TweetSampleOutput.png)
+
 Please note that in the above, I didn’t remove the ‘,’ after the user mention or the hashtag.
 To receive a 100% credit, please remove the commas. 
+
+## Grading Rubic
+
+|               |  5  |  4  |  3  |  2  |  1  |
+|---------------|:---:|:---:|:---:|:---:|:---:|
+| Coding Style  |     |     |     |     |     |
+| Accuracy      |     |     |     |     |     |
+| Comments      |     |     |     |     |     |
+| Efficiency    |     |     |     |     |     |
+
+## Overall Grade
+
+| Letter Grade   |
+|:--------------:|
+|     -          |
