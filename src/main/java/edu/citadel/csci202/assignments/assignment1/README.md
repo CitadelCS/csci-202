@@ -9,10 +9,14 @@ Write a Java program that does the following:
 `Do you want to analyze another tweet?`
 2. Ask the use to enter a tweet and store it in a String variable.
 3. For each tweet find the following:
-a. Number of user mentions (words starting with @)
-b. Number of hash tags (words starting with #)
-c. Total number of words
-d. Total number of characters
+
+    a. Number of user mentions (words starting with @)
+    
+    b. Number of hash tags (words starting with #)
+    
+    c. Total number of words
+    
+    d. Total number of characters
 4. Count the total number of tweets processed.
 5. Find the average number of words, user mentions and hashtags in all the tweets processed.
 6. Display the unique user mentions and hashtags.
