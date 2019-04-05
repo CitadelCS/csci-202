@@ -58,17 +58,19 @@ recording the small electric waves being generated during heart activity.
 Please note that in the above, I didn’t remove the ‘,’ after the user mention or the hashtag.
 To receive a 100% credit, please remove the commas. 
 
+## Total Points: 100
+
 ## Grading Rubic
 
-|               |  5  |  4  |  3  |  2  |  1  |
-|---------------|:---:|:---:|:---:|:---:|:---:|
-| Coding Style  |     |     |     |     |     |
-| Accuracy      |     |     |     |     |     |
-| Comments      |     |     |     |     |     |
-| Efficiency    |     |     |     |     |     |
+|               |  5  |  4  |  3  |  2  |  1  | Points |
+|---------------|:---:|:---:|:---:|:---:|:---:|:------:|
+| Coding Style  |     |     |     |     |     |        |
+| Accuracy      |     |     |     |     |     |        |
+| Comments      |     |     |     |     |     |        |
+| Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade
 
-| Letter Grade   |
-|:--------------:|
-|     -          |
+| Letter Grade   | Points |
+|:--------------:|:------:|
+|     -          |   -    |
