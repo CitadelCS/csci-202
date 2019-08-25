@@ -5,7 +5,7 @@
 This repository contains all examples and assignments for [CSCI 202, Introduction to Computer Science II](http://www.citadel.edu/root/ccs-courses/372-academics/schools/ssm/cyber-and-computer-sciences/21149-csi-202-introduction-to-computer-science-ii) offered at The Citadel. 
 The course was taught MWF 8-8:50 AM in Fall of 2019.
 
-This code is a compilation of the [Introduction to Java Programming, Comprehensive Version (10th Edition), Y. Daniel Liang, Pearson, 2013](https://www.amazon.com/Introduction-Java-Programming-Comprehensive-Version-ebook/dp/B00HNZ4K1U/ref=sr_1_fkmr0_2?keywords=Introduction+to+Java+Programming%2C+Comprehensive+Version+%2810th+Edition%29%2C+Y.+Daniel+Liang%2C+Pearson%2C+2013&qid=1553277439&s=gateway&sr=8-2-fkmr0) and 
+This code is a compilation of the [Introduction to Java Programming, Comprehensive Version (11th Edition), Y. Daniel Liang, Pearson, 2017](https://www.amazon.com/Introduction-Programming-Structures-Comprehensive-Version/dp/0134670949/ref=sr_1_1?keywords=liang+11+edition&qid=1562779552&s=gateway&sr=8-1) and 
 some of my own code to help with illustrations and coding examples. Any questions can be directed to me directly at [ravanj1@citadel.edu](mailto:ravanj1@citadel.edu)
 
 Cloning this repository will give you a clean slate of all the examples from the `master` branch.
