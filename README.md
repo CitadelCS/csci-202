@@ -17,15 +17,15 @@ push their responses to their repositories, and then the instructor can then gra
 
 This repository has all coding examples and base classes for CSCI 202. Use this repository as a base for creating Github Classrooms ([classroom.github.com](https://classroom.github.com/)).
 
-## Environment Setup
+## Environment Setup (Faculty)
 
-1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/).
+1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
 
 ```bash
 brew install maven
 ```
 
-2.) Clone down the repository from GitLab
+2.) Clone down the repository from Github
 
 ```bash
 git clone git@git.github.com:CitadelCS/csci-202.git
@@ -41,10 +41,73 @@ You should see a success if everything is set up correctly.
 
 5.) Run the sample you wish by running each file with a main method
 
+## Environment Setup (Students)
+
+1.) Install maven 3.6.0 and Java JDK 11. JDK located [here](https://openjdk.java.net/install/). If you have a Mac you can use `brew`.
+
+```bash
+brew install maven
+```
+
+2.) Create your personal repository from Github. You should receive a unique link from your professor from Github Classroom that will generate a private repository within your Github account.
+It should look something like this.
+
+```bash
+https://classroom.github.com/a/{classroomId}
+```
+
+3.) This will create your personal repository within the [Citadel CS Github Organization](https://github.com/CitadelCS). From here you'll be able to create
+pull requests for all of your assignments. The easiest way to do this is cloning down your repository to your local machine.
+
+4.) Clone down the repository from Github
+
+```bash
+git clone git@git.github.com:CitadelCS/csci-202-assignments-{yourUsername}.git
+```
+
+5.) Build the project
+
+```bash
+mvn clean install
+```
+
+You should see a success if everything is set up correctly.
+
+6.) Run the sample you wish by running each file with a main method
+
 ## Assignments
 
 Within the folder `assignments` there is a subfolder for each assignment with a `README.md` with the assignment instructions. Students are to read the document and complete the assignment by
 submitting their code within their private repository for the submitter and the instructor to see.
+
+You will submit each assignment by submitting a pull request of an assignment branch into master. Below are the steps on how to do this
+
+1.) After completing the assignment within your private repository create a branch for the assignment
+
+```bash
+git checkout -b assignment/{assignmentNumber}
+```
+
+2.) Add all of your changed files to the newly created branch
+
+```bash
+git add .
+```
+
+3.) Commit all of the added files to your branch with a message
+
+```bash
+git commit -m "Initial attempt of assignment 1"
+```
+
+4.) Now that all of your changes have been commit to the new branch, push the new branch to your remote repository.
+
+```bash
+git push origin assignment/{assignmentNumber}
+```
+
+5.) Visit your repository through [github.com](https://www.github.com) and open a pull request for merging your assignment branch into
+your `master` branch. From here, your professor will give you feedback on your code and will guide you on how to submit changes.
 
 ## IDE (IntelliJ)
 
