@@ -62,7 +62,7 @@ pull requests for all of your assignments. The easiest way to do this is cloning
 4.) Clone down the repository from Github
 
 ```bash
-git clone git@git.github.com:CitadelCS/csci-202-assignments-{yourUsername}.git
+git clone git@git.github.com:CitadelCS/csci-202-assignments-fall-2019-{yourUsername}.git
 ```
 
 5.) Build the project
