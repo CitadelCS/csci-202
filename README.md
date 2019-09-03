@@ -118,5 +118,8 @@ IntelliJ is quite expensive however students/instructors can receive a free lice
 school email address. Simply go to [https://www.jetbrains.com/student/](https://www.jetbrains.com/student/) and fill out an
 application in order to receive your free license.
 
+If you don't plan to use IntelliJ I recommend using [VS Code](https://code.visualstudio.com/). I **strongly** discourage the use
+of Eclipse because of the way it displays markdown files.
+
 Happy coding!
 
