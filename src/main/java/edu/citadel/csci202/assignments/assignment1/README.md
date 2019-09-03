@@ -34,19 +34,13 @@ achievements at the time of the award.
  * \#OTD in 1989, @NASAVoyager 2 made its closest approach to #Neptune, making it the first
 spacecraft to observe the planet up close: https://go.nasa.gov/2Hyo2vZ
 
+* Today, @NASASpitzer celebrates 15 years since launch: https://go.nasa.gov/2P4KaSM #Spitzer15
 
-* Today, @NASASpitzer celebrates 15 years since launch: https://go.nasa.gov/2P4KaSM
-\#Spitzer15
-
-
-* Stripping ESO 137-001: https://apod.nasa.gov/apod/ap180825.html … by @NASA, ESA,
-@chandraxray
-
+* Stripping ESO 137-001: https://apod.nasa.gov/apod/ap180825.html … by @NASA, ESA, @chandraxray
 
 * Selfies in SPACE! To celebrate 15 years of @NASASpitzer observing the universe, a new app
 puts you in a virtual spacesuit exploring gorgeous cosmic landscapes that you can learn more
-about. Download on iOS & Android: https://go.nasa.gov/2PDofmx \#Spitzer15
-
+about. Download on iOS & Android: https://go.nasa.gov/2PDofmx #Spitzer15
 
 * The #NobelPrize awarded invention ECG - a milestone in heart diagnosis – is a technique
 recording the small electric waves being generated during heart activity.
