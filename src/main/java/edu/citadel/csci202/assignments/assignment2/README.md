@@ -10,7 +10,7 @@ Finish the program `MyMath` by completing the following:
 3. Define `subtract`
 4. Define `myPow`
 5. Define calculate area for a rectangle
-6. Call and test all the other methods defined above in the `main` method
+6. Run the `MyMathTestSuite` to ensure the accuracy of your program
 
 ## Submission Instructions:
 

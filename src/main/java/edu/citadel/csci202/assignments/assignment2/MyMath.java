@@ -6,22 +6,29 @@ public class MyMath {
         return a + b;
     }
 
-    //define myProduct
+    public long myProduct(long a, long b) {
+        //TODO
+        return -1;
+    }
 
-    //define mySqrt
+    public double mySqrt(double a) {
+        //TODO
+        return -1;
+    }
 
-    //define subtract
+    public int subtract(int a, int b) {
+        //TODO
+        return -1;
+    }
 
-    //define myPow
+    public double myPow(double a, double b) {
+        //TODO
+        return -1;
+    }
 
-    //define calculate area for a rectangle
-
-
-    public static void main(String[] args) {
-        MyMath myMath = new MyMath();
-        System.out.println("Sum = " + myMath.mySum(3, 5));
-        //call and test all the other methods defined above
-
+    public long calcAreaOfRectangle(long width, long length) {
+        //TODO
+        return -1;
     }
 
 }
