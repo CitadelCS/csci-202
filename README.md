@@ -13,6 +13,25 @@ Cloning this repository will give you a clean slate of all the examples from the
 This repository is used in conjunction with [Github Classrooms](https://classroom.github.com/) so that students have their own private cloned repository and can work their own solutions. They will work their own solutions,
 push their responses to their repositories, and then the instructor can then grade the solution within GitHub.
 
+If you are a faculty member using this repository, you will want to go to each student repository and protect the `master` branch so that changes can only be submitted through pull requests.
+This gives you a forum for a code review and grading.
+
+1.) Go to https://github.com/CitadelCS/csci-202-fall-2019-assignments-{userName}/settings/branches
+
+2.) Click `Add rule`
+
+3.) Add the branch name pattern as `master`
+
+4.) Check `Require pull request reviews before merging`
+
+5.) Check `Restrict who can push to matching branches` and add yourself
+
+6.) Click ` Save changes`
+
+7.) Success! It should look like the image below
+
+![Branch Protection Rule](images/branch-protection-rule.png)
+
 ## Usage
 
 This repository has all coding examples and base classes for CSCI 202. Use this repository as a base for creating Github Classrooms ([classroom.github.com](https://classroom.github.com/)).
