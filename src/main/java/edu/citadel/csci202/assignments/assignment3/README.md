@@ -30,7 +30,7 @@ provided keyword in the `text` property.
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|
 | Coding Style  |     |     |     |     |     |        |
 | Accuracy      |     |     |     |     |     |        |
-| Comments      |     |     |     |     |     |        |
+| Maintain      |     |     |     |     |     |        |
 | Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade

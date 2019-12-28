@@ -24,7 +24,7 @@ View `ReadFileFromURL` class for reference.
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|
 | Coding Style  |     |     |     |     |     |        |
 | Accuracy      |     |     |     |     |     |        |
-| Comments      |     |     |     |     |     |        |
+| Maintain      |     |     |     |     |     |        |
 | Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade

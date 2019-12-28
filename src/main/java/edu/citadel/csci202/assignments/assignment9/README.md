@@ -34,7 +34,7 @@ for this assignment you must use a `Stack`.
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|
 | Coding Style  |     |     |     |     |     |        |
 | Accuracy      |     |     |     |     |     |        |
-| Comments      |     |     |     |     |     |        |
+| Maintain      |     |     |     |     |     |        |
 | Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade

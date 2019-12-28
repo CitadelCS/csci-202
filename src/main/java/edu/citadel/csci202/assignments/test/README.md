@@ -19,7 +19,7 @@ repository `README`
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|
 | Coding Style  |     |     |     |     |     |        |
 | Accuracy      |     |     |     |     |     |        |
-| Comments      |     |     |     |     |     |        |
+| Maintain      |     |     |     |     |     |        |
 | Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade

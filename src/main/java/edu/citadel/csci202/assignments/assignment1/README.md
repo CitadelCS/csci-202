@@ -60,7 +60,7 @@ To receive a 100% credit, please remove the commas.
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|
 | Coding Style  |     |     |     |     |     |        |
 | Accuracy      |     |     |     |     |     |        |
-| Comments      |     |     |     |     |     |        |
+| Maintain      |     |     |     |     |     |        |
 | Efficiency    |     |     |     |     |     |        |
 
 ## Overall Grade
