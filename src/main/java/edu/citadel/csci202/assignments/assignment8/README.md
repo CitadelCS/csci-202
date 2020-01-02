@@ -46,7 +46,7 @@ Write a test program that prompts the user to enter a string and displays all it
 
 ## Total Points: 100
 
-## Grading Rubic
+## Grading Rubric
 
 |               |  5  |  4  |  3  |  2  |  1  | Points |
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|

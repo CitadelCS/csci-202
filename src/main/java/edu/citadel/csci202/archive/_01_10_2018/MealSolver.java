@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MealSolver {
 
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         final int EMPANADA_COST = 3;
         final int TACO_COST     = 4;
 
@@ -21,7 +21,7 @@ public class MealSolver {
         mealCost = 0;
 
         System.out.print("Enter money for meal: ");
-        userMoney = scnr.nextInt();
+        userMoney = scanner.nextInt();
 
         maxEmpanadas = userMoney / EMPANADA_COST;
         maxTacos = userMoney / TACO_COST;

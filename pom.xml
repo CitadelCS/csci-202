@@ -5,7 +5,7 @@
 
 	<groupId>edu.citadel</groupId>
 	<artifactId>csci-202</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 
 	<name>csci-202</name>
 	<description>Base code samples for CSCI 202</description>

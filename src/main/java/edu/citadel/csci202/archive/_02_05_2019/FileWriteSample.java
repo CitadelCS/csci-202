@@ -23,6 +23,5 @@ public class FileWriteSample {
         // Done with file, so try to close it
         fileByteStream.close(); // close() may throw IOException if fails
 
-        return;
     }
 }

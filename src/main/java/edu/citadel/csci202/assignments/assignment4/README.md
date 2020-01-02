@@ -20,7 +20,7 @@ are thrown.
 
 ## Total Points: 100
 
-## Grading Rubic
+## Grading Rubric
 
 |               |  5  |  4  |  3  |  2  |  1  | Points |
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|

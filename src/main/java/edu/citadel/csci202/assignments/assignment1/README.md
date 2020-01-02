@@ -49,12 +49,12 @@ recording the small electric waves being generated during heart activity.
 
 ![Tweetreader Sample Output](../../../../../../../../images/TweetSampleOutput.png)
 
-Please note that in the above, I didn’t remove the ‘,’ after the user mention or the hashtag.
+Please note that in the above, I did not remove the ‘,’ after the user mention or the hashtag.
 To receive a 100% credit, please remove the commas. 
 
 ## Total Points: 100
 
-## Grading Rubic
+## Grading Rubric
 
 |               |  5  |  4  |  3  |  2  |  1  | Points |
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|

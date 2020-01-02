@@ -11,7 +11,7 @@ public class FileReadNumsIntoArray {
     public static void main(String[] args) throws IOException {
         FileInputStream fileByteStream = null; // File input stream
         Scanner inFS = null;                   // Scanner object
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        ArrayList<Integer> numbers = new ArrayList<>();
         int i = 0;                             // Loop index
 
         // Try to open file
@@ -41,7 +41,7 @@ public class FileReadNumsIntoArray {
             ++i;
         }
 
-        System.out.println("");
+        System.out.println();
 
         inFS.close();
 

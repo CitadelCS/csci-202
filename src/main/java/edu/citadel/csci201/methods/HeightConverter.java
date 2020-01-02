@@ -12,21 +12,21 @@ public class HeightConverter {
         double cmVal;
 
         totIn = (heightFt * IN_PER_FT) + heightIn; // Total inches
-        cmVal = totIn * CM_PER_IN;                 // Conv inch to cm
+        cmVal = totIn * CM_PER_IN;                 // Convert inch to cm
         return cmVal;
     }
 
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int userFt;  // User defined feet
         int userIn;  // User defined inches
 
         // Prompt user for feet/inches
         System.out.print("Enter feet: ");
-        userFt = scnr.nextInt();
+        userFt = scanner.nextInt();
 
         System.out.print("Enter inches: ");
-        userIn = scnr.nextInt();
+        userIn = scanner.nextInt();
 
         // Output the conversion result
         System.out.print("Centimeters: ");

@@ -10,7 +10,6 @@ public class RecursiveCalls {
             System.out.print(currLetter + " ");
             backwardsAlphabet(--currLetter);
         }
-        return;
     }
 
     public static void main (String [] args) {
@@ -20,6 +19,5 @@ public class RecursiveCalls {
 
         backwardsAlphabet(startingLetter);
 
-        return;
     }
 }

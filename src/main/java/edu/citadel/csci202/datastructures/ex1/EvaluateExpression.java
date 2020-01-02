@@ -75,7 +75,7 @@ public class EvaluateExpression {
             }
             else { // An operand scanned
                 // Push an operand to the stack
-                operandStack.push(new Integer(token));
+                operandStack.push(Integer.parseInt(token));
             }
         }
 

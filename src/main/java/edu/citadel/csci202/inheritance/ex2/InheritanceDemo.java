@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class InheritanceDemo {
 
     public static void main(String[] args) {
-        ArrayList<Employee> test = new ArrayList<Employee>();
+        ArrayList<Employee> test = new ArrayList<>();
         HourlyEmployee john = new HourlyEmployee("John Doe", LocalDate.of(2009, 5, 21), 50.5, 160.0);
         HourlyEmployee jane = new HourlyEmployee("Jane Doe", LocalDate.of(2005, 9, 1), 150.5, 80.0);
         SalariedEmployee moe = new SalariedEmployee("Moe Howard", LocalDate.of(2004, 1, 1), 75000.0);

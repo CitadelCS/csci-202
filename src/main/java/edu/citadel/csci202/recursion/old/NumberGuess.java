@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class NumberGuess {
 
     public static void guessNumber(int low, int high) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int mid; // Midpoint of low..high
         char answer;
 
         mid = (high + low) / 2;
 
         System.out.print("Is it " + mid + "? (l/h/y): ");
-        answer = scnr.next().charAt(0);
+        answer = scanner.next().charAt(0);
 
         if ((answer != 'l') &&
                 (answer != 'h')) {                // Base case:
@@ -28,7 +28,6 @@ public class NumberGuess {
             }
         }
 
-        return;
     }
 
     public static void main (String[] args) {
@@ -40,6 +39,5 @@ public class NumberGuess {
 
         guessNumber(0, 100);
 
-        return;
     }
 }

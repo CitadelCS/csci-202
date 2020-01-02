@@ -23,7 +23,7 @@ public class ButtonCounter3 extends Application {
         Button button = new Button("Click Me!");
         // create an anonymous inner class to handle button clicks
 
-        button.setOnAction(new EventHandler<ActionEvent>() {
+        button.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 ++numClicks;
                 message.setText(LABEL_PREFIX + numClicks);
@@ -37,7 +37,7 @@ public class ButtonCounter3 extends Application {
 
         Scene scene = new Scene(pane, 250, 100);
         stage.setScene(scene);
-        stage.setTitle("Button Counter - Annonymous IC");
+        stage.setTitle("Button Counter - Anonymous IC");
         stage.show();
 
 

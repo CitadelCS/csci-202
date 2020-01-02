@@ -97,7 +97,7 @@ Total Monthly Pay: $35,120.00
 
 ## Total Points: 100
 
-## Grading Rubic
+## Grading Rubric
 
 |               |  5  |  4  |  3  |  2  |  1  | Points |
 |---------------|:---:|:---:|:---:|:---:|:---:|:------:|

@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class DogYearsMonths {
 
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int dogAgeYears;
         int dogAgeMonths;
 
         System.out.print("Enter dog's age (in years): ");
-        dogAgeYears = scnr.nextInt();
+        dogAgeYears = scanner.nextInt();
 
         if (dogAgeYears == 0) {
             System.out.print("Enter dog's age in months: ");
-            dogAgeMonths = scnr.nextInt();
+            dogAgeMonths = scanner.nextInt();
 
             switch (dogAgeMonths) {
                 case 0:

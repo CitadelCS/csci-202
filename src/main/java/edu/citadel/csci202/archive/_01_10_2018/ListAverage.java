@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class ListAverage {
 
     public static void main(String [] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int currValue;
         int valuesSum;
         int numValues;
         int i;
 
-        numValues = scnr.nextInt();
+        numValues = scanner.nextInt();
 
         valuesSum = 0;
 
         for (i = 0; i < numValues; ++i) {
-            currValue = scnr.nextInt();
+            currValue = scanner.nextInt();
             valuesSum += currValue;
         }
 

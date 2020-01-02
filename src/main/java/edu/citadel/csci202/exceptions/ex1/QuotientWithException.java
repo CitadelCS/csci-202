@@ -30,7 +30,7 @@ public class QuotientWithException {
         } catch (ArithmeticException ex) {
             System.out.println(ex.getMessage());
         } catch (Exception ex) {
-            System.out.println("An exception has occured! ");
+            System.out.println("An exception has occurred! ");
         }
 
         System.out.println("Execution continues ...");

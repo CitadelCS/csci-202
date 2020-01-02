@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class StatePopulations {
 
     public static void main (String[] args) {
-        HashMap<String, Integer> statePopulation = new HashMap();
+        HashMap<String, Integer> statePopulation = new HashMap<>();
 
         // 2013 population data from census.gov
         statePopulation.put("CA", 38332521);

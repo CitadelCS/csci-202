@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CoreGtldValidation_Solution {
 
     public static void main (String [ ] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String coreGtld1;
         String coreGtld2;
         String coreGtld3;
@@ -27,7 +27,7 @@ public class CoreGtldValidation_Solution {
         periodPosition = 0;
 
         System.out.println("\nEnter the next domain name (<Enter> to exit): ");
-        inputName  = scnr.nextLine();
+        inputName  = scanner.nextLine();
 
         while (inputName.length() > 0) {
             searchName = inputName.toLowerCase();
@@ -76,7 +76,7 @@ public class CoreGtldValidation_Solution {
             }
 
             System.out.println("\nEnter the next domain name (or <Enter> to exit): ");
-            inputName  = scnr.nextLine();
+            inputName  = scanner.nextLine();
         }
     }
 }

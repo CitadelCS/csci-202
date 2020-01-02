@@ -6,7 +6,7 @@ public class AnimalTester {
 
     public static void main(String[] args) {
 
-        ArrayList<Animal> alist = new ArrayList<Animal>();
+        ArrayList<Animal> alist = new ArrayList<>();
 
         //Create objects
         //Animal a1 = new Animal("Dolphin", 24);

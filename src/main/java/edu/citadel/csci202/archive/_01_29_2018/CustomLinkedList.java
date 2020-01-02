@@ -29,7 +29,6 @@ public class CustomLinkedList {
             currObj = currObj.getNext();
         }
 
-        return;
     }
 
 }

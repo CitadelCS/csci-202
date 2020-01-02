@@ -19,10 +19,10 @@ public class CtoF extends Application {
 
         gridPane = new GridPane(); // Create an empty pane
 
-        Label celLabel = new Label("Temp in Celcius:");
+        Label celLabel = new Label("Temp in Celsius:");
         // celLabel.setPrefWidth(20);
 
-        Label fLabel = new Label("Temp in Farenheit:");
+        Label fLabel = new Label("Temp in Fahrenheit:");
         // fLabel.setPrefWidth(20);
 
         TextField cField = new TextField();
@@ -54,8 +54,6 @@ public class CtoF extends Application {
         applicationStage.setScene(scene); // Set window's scene
         applicationStage.setTitle("Convert Celcius to Farenhiet"); // Set window's title
         applicationStage.show(); // Display window
-
-        return;
     }
 
     public static void main(String[] args) {

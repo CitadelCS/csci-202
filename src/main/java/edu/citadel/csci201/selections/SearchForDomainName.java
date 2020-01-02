@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SearchForDomainName {
 
     public static void main(String[] args) {
-        Scanner scnr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String inputName;
         String searchName;
         String coreGtld1;
@@ -21,7 +21,7 @@ public class SearchForDomainName {
         isCoreGtld = false;
 
         System.out.println("\nEnter a top-level domain name: ");
-        inputName = scnr.nextLine();
+        inputName = scanner.nextLine();
         searchName = inputName.toLowerCase();
 
         // If the user entered a name without a leading period, add one
@@ -45,7 +45,6 @@ public class SearchForDomainName {
             System.out.println("is not a core gTLD.");
         }
 
-        return;
     }
 
 }

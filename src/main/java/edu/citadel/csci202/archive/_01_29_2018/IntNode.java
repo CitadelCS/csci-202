@@ -32,7 +32,6 @@ public class IntNode {
         tmpNext = this.nextNodePtr;
         this.nextNodePtr = nodeLoc;
         nodeLoc.nextNodePtr = tmpNext;
-        return;
     }
 
     // Get location pointed by nextNodePtr
@@ -42,7 +41,6 @@ public class IntNode {
 
     public void printNodeData() {
         System.out.println(this.dataVal);
-        return;
     }
 
 }

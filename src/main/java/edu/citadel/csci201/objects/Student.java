@@ -54,7 +54,7 @@ public class Student {
     }
 
 
-    //Setters or Mutators -- these should be public
+    //Setters -- these should be public
     public void setName(String name) {
         this.name = name;
     }

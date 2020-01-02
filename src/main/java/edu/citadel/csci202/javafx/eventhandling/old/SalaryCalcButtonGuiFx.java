@@ -53,7 +53,7 @@ public class SalaryCalcButtonGuiFx extends Application {
         gridPane.add(calcButton, 0, 2); // Add calculate button to location (0, 2)
 
         // Set an event handler to handle button presses
-        calcButton.setOnAction(new EventHandler<ActionEvent>() {
+        calcButton.setOnAction(new EventHandler<>() {
             /* Method is automatically called when an event
                occurs (e.g, button is pressed) */
             @Override
@@ -70,7 +70,6 @@ public class SalaryCalcButtonGuiFx extends Application {
                 // Display calculated salary
                 salField.setText(Integer.toString(yearlySalary));
 
-                return;
             }
         });
 
@@ -78,12 +77,10 @@ public class SalaryCalcButtonGuiFx extends Application {
         applicationStage.setTitle("Salary"); // Set window's title
         applicationStage.show();             // Display window
 
-        return;
     }
 
     public static void main(String [] args) {
         launch(args); // Launch application
 
-        return;
     }
 }
