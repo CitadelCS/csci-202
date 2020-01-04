@@ -18,9 +18,15 @@
 		<junit.testsuite.version>1.5.1</junit.testsuite.version>
 		<mvn.version>3.6.0</mvn.version>
 		<mvn.surefire.version>2.22.2</mvn.surefire.version>
+		<jsoup.version>1.12.1</jsoup.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>${jsoup.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-base</artifactId>
