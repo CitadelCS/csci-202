@@ -1,5 +1,7 @@
 # CSCI-202, Introduction to Computer Science II
 
+![Java CI](https://github.com/CitadelCS/csci-202/workflows/Java%20CI/badge.svg)
+
 ## Overview
 
 This repository contains all examples and assignments for [CSCI 202, Introduction to Computer Science II](http://www.citadel.edu/root/ccs-courses/372-academics/schools/ssm/cyber-and-computer-sciences/21149-csi-202-introduction-to-computer-science-ii) offered at The Citadel. 
