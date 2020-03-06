@@ -1,43 +1,25 @@
-# Assignment 8
+
+# Programming Assignment 7
 
 ## Problem Description
 
-### Problem 1
+Finish the program `BlackAndBlueButton` to changes the color of a circle as black when the mouse button is pressed,
+and as blue when the mouse button is released.
 
-Write a recursive method that parses a binary number as a string into a decimal
-integer. The method header is
+![Black and Blue Button](../../../../../../../../images/black_blue_button.png)
 
-`public static int bin2Dec(String binaryString)`
+Finish the program `InvestmentCalculator` to calculate the future value of an investment at a given interest rate for a
+specified number of years. The formula for the calculation is:
 
-Write a test program that prompts the user to enter a binary string and displays its decimal
-equivalent.
+![equation](https://latex.codecogs.com/gif.latex?futureValue&space;=&space;investmentAmount&space;*&space;(1&plus;monthlyInterestRate)^{years*12})
 
-### Problem 2
+Use text fields for the investment amount, number of years, and annual interest rate. Display the
+future amount in a text field when the user clicks the Calculate button, as shown in Figure below.
 
-Write a recursive method to print all the permutations of a string.
+[Think about the discussion in class we had about the Loan Calculator interface, and design your
+UI for this problem accordingly]
 
-For example, for the string abc, the permutation is:
-
-```text
-abc
-acb
-bac
-bca
-cab
-cba
-```
-
-**(Hint: Define the following two methods. The second is a helper method.)**
-
-`public static void displayPermutation(String s)`
-
-`public static void displayPermutation(String s1, String s2)`
-
-The first method simply invokes `displayPermutation(" ", s)`. The second method uses a loop
-to move a character from `s2` to `s1` and recursively invokes it with a new `s1` and `s2`. The
-base case is that `s2` is empty and prints `s1` to the console.
-
-Write a test program that prompts the user to enter a string and displays all its permutations.
+![Black and Blue Button](../../../../../../../../images/investment_fx.png)
 
 ## Submission Instructions:
 
