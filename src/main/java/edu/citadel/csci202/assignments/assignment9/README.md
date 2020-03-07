@@ -1,25 +1,43 @@
-# Assignment 9
+# Assignment 8
 
 ## Problem Description
 
-A Java program contains various pairs of grouping symbols, such as:
+### Problem 1
 
-* Parentheses: `(` and `)`
-* Braces: `{` and `}`
-* Brackets: `[` and `]`
+Write a recursive method that parses a binary number as a string into a decimal
+integer. The method header is
 
-> Note that the grouping symbols cannot overlap. For example, `(a{b)}` is illegal. Write a program to check whether a Java source-code file has correct pairs of grouping symbols.
+`public static int bin2Dec(String binaryString)`
 
-## Implementation Details
+Write a test program that prompts the user to enter a binary string and displays its decimal
+equivalent.
 
-The goal of this assignment is to begin understanding collections. In order to get credit
-for this assignment you must use a `Stack`.
+### Problem 2
 
-1. Ask the user to enter the file name along with its full path to read in the file. The string input should be used to create a `File` object.
-1. Read the file line by line.
-    * If the string is `(` or `{` or `[`, then push to the stack.
-    * If the string is `)` or `}` or `]`, then pop from the stack.
-1. When the end of file is reached, if the stack is empty, then the file has the correct pairs of grouping symbols. Otherwise, the grouping symbols are not balanced. Display an appropriate message for the user.
+Write a recursive method to print all the permutations of a string.
+
+For example, for the string abc, the permutation is:
+
+```text
+abc
+acb
+bac
+bca
+cab
+cba
+```
+
+**(Hint: Define the following two methods. The second is a helper method.)**
+
+`public static void displayPermutation(String s)`
+
+`public static void displayPermutation(String s1, String s2)`
+
+The first method simply invokes `displayPermutation(" ", s)`. The second method uses a loop
+to move a character from `s2` to `s1` and recursively invokes it with a new `s1` and `s2`. The
+base case is that `s2` is empty and prints `s1` to the console.
+
+Write a test program that prompts the user to enter a string and displays all its permutations.
 
 ## Submission Instructions:
 
