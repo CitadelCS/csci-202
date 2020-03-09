@@ -7,7 +7,7 @@ public class ReadData {
 
     public static void main(String[] args) throws Exception {
         // Create a File instance
-        File file = new File("scores.txt");
+        File file = new File("src/main/java/edu/citadel/csci202/files/scores.txt");
 
         // Create a Scanner for the file
         Scanner input = new Scanner(file);
