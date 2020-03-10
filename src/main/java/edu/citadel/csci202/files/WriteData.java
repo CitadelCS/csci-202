@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 public class WriteData {
 
     public static void main(String[] args) throws Exception {
-        File file = new File("scores.txt");
+        File file = new File("src/main/java/edu/citadel/csci202/files/scores-write.txt");
         if (file.exists()) {
             System.out.println("File already exists");
             System.exit(0);
