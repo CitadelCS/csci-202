@@ -20,6 +20,7 @@
 		<mvn.surefire.version>2.22.2</mvn.surefire.version>
 		<jsoup.version>1.12.1</jsoup.version>
 		<maven.test.skip>true</maven.test.skip>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>

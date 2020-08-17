@@ -1,0 +1,28 @@
+{
+  "name": "csci-202",
+  "version": "1.0.0",
+  "description": "Base code samples for CSCI 202",
+  "scripts": {
+    "changelog:isModified": "git ls-files --error-unmatch docs/changelog.md",
+    "test": "./mvnw test",
+    "build": "./mvnw clean install",
+    "start": "./mvnw spring-boot:run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CitadelCS/csci-202.git"
+  },
+  "keywords": [
+    "csci",
+    "java",
+    "spring"
+  ],
+  "pre-commit": [
+    "test"
+  ],
+  "author": "John Ravan",
+  "private": true,
+  "devDependencies": {
+    "pre-commit": "1.2.2"
+  }
+}
