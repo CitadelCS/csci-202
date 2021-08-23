@@ -18,7 +18,7 @@
 		<junit.testsuite.version>1.5.1</junit.testsuite.version>
 		<mvn.version>3.6.0</mvn.version>
 		<mvn.surefire.version>2.22.2</mvn.surefire.version>
-		<jsoup.version>1.12.1</jsoup.version>
+		<jsoup.version>1.14.2</jsoup.version>
 		<maven.test.skip>true</maven.test.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
