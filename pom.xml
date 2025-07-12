@@ -13,7 +13,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<javafx.sdk.version>11.0.2</javafx.sdk.version>
-		<apache.commons.version>3.9</apache.commons.version>
+		<apache.commons.version>3.18.0</apache.commons.version>
 		<junit.version>5.5.1</junit.version>
 		<junit.testsuite.version>1.5.1</junit.testsuite.version>
 		<mvn.version>3.6.0</mvn.version>
